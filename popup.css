@@ -1,0 +1,23 @@
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+}
+
+#content {
+  /*
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  */
+  width: 550px;
+}
+
+#content label {
+  width: 90px;
+  display: inline-block;
+}
+
+#content .path {
+  margin-left: 20px;
+  width: 400px;
+}
