@@ -3,6 +3,9 @@
 ## Introduction
 This is a trail of using a Chrome browser [extension](https://developer.chrome.com/extensions) to find CSS selectors to extract information elements from web pages.
 
+The CSS selectors are generated using
+css-selector-generator.min.js from [here](https://github.com/fczbkk/css-selector-generator/tree/master/build).
+
 ## Installation
 Drag the `chrome-ext-selector` directory onto the browser's [Extensions](chrome://extensions/) page (which you can open from the previous link or with `menu` > `More tools` > `Extensions`).
 
@@ -17,9 +20,12 @@ Intended usage:
 7. Elements matching the edited selector are shown with a red border.
 8. Once the user is happy with the selector it can be used in a crawler/parser to automatically extract information in bulk.
 
+## Issue
 At the moment it only works with the Extension open in Developer tools:
 1. click on the extension icon to show its popup
 2. on the extension icon `right-click`  > `Inspect popup`
 
 The popup's javascript may need to be moved to a `background page` to fix this.
+
+
 
